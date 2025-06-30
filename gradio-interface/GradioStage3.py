@@ -36,7 +36,14 @@ tf_r50.trainable = False
 tf50_dim = 2048
 
 # Indexación FAISS para ResNet50
-def build_index():
+INDEX_PATH = "./cache/idx_r50.faiss"
+
+def build_or_load_index():
+    if os.path.exists(INDEX_PATH):
+        print(f"Cargando índice FAISS desde {INDEX_PATH}")
+        return faiss.read_index(INDEX_PATH)
+
+    print("Construyendo índice FAISS para ResNet50...")
     arrs = []
     for img_path, _ in tqdm(train_ds.imgs, desc="Preparando lote TF", unit="img"):
         img = image.load_img(img_path, target_size=(224,224))
@@ -45,13 +52,18 @@ def build_index():
         arrs.append(x)
     X_in = np.stack(arrs, axis=0)  # (N,224,224,3)
     with tf.device('/CPU:0'):
-        feats = tf_r50.predict(X_in, batch_size=32, verbose=1)  # (N,2048)
+        feats = tf_r50.predict(X_in, batch_size=32)  # (N,2048)
     X = feats.astype('float32')
+
     idx = faiss.IndexFlatL2(tf50_dim)
     idx.add(X)
+
+    os.makedirs(os.path.dirname(INDEX_PATH), exist_ok=True)
+    faiss.write_index(idx, INDEX_PATH)
+    print(f"Índice guardado en {INDEX_PATH}")
     return idx
 
-idx_r50 = build_index()
+idx_r50 = build_or_load_index()
 
 def extract_tf_pil(img_pil):
     arr = np.array(img_pil.resize((224,224)))

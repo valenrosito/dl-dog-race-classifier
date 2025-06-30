@@ -1,0 +1,626 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "Beagle & japanese spaniel.jpg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "id": 2,
+      "file_name": "Dobberman & Labradores.jpg",
+      "width": 1500,
+      "height": 1101
+    },
+    {
+      "id": 3,
+      "file_name": "German_Shepherd.jpg",
+      "width": 583,
+      "height": 485
+    },
+    {
+      "id": 4,
+      "file_name": "Golden Retriever.jpg",
+      "width": 1100,
+      "height": 825
+    },
+    {
+      "id": 5,
+      "file_name": "Pug.jpg",
+      "width": 800,
+      "height": 633
+    },
+    {
+      "id": 6,
+      "file_name": "beagle.jpg",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "id": 7,
+      "file_name": "german shepherd.jpg",
+      "width": 577,
+      "height": 663
+    },
+    {
+      "id": 8,
+      "file_name": "raza-doberman.jpg",
+      "width": 800,
+      "height": 480
+    },
+    {
+      "id": 9,
+      "file_name": "shiba inu.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": 10,
+      "file_name": "yorkie.jpg",
+      "width": 2292,
+      "height": 1514
+    }
+  ],
+  "annotations": [
+    {
+      "id": 0,
+      "image_id": 1,
+      "category_id": 7,
+      "bbox": [
+        346.51873779296875,
+        341.56201171875,
+        167.80010986328125,
+        145.00991821289062
+      ],
+      "area": 24332.6796875,
+      "iscrowd": 0
+    },
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 45,
+      "bbox": [
+        170.69386291503906,
+        351.8747253417969,
+        130.9407501220703,
+        151.73641967773438
+      ],
+      "area": 19868.48046875,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 14,
+      "bbox": [
+        169.871337890625,
+        350.8356628417969,
+        82.24443054199219,
+        155.2896728515625
+      ],
+      "area": 12771.7109375,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 1,
+      "category_id": 23,
+      "bbox": [
+        236.61459350585938,
+        371.7698974609375,
+        64.07363891601562,
+        121.72076416015625
+      ],
+      "area": 7799.09228515625,
+      "iscrowd": 0
+    },
+    {
+      "id": 4,
+      "image_id": 2,
+      "category_id": 48,
+      "bbox": [
+        980.1412353515625,
+        361.5450439453125,
+        285.2694091796875,
+        521.462158203125
+      ],
+      "area": 148757.203125,
+      "iscrowd": 0
+    },
+    {
+      "id": 5,
+      "image_id": 2,
+      "category_id": 48,
+      "bbox": [
+        418.09356689453125,
+        438.1327819824219,
+        355.9476318359375,
+        478.6983337402344
+      ],
+      "area": 170391.53125,
+      "iscrowd": 0
+    },
+    {
+      "id": 6,
+      "image_id": 2,
+      "category_id": 34,
+      "bbox": [
+        744.8472900390625,
+        162.42120361328125,
+        270.510009765625,
+        745.3314819335938
+      ],
+      "area": 201619.625,
+      "iscrowd": 0
+    },
+    {
+      "id": 7,
+      "image_id": 3,
+      "category_id": 37,
+      "bbox": [
+        61.362281799316406,
+        15.6180419921875,
+        445.3525085449219,
+        452.0
+      ],
+      "area": 201299.328125,
+      "iscrowd": 0
+    },
+    {
+      "id": 8,
+      "image_id": 4,
+      "category_id": 38,
+      "bbox": [
+        10.361804962158203,
+        58.82441329956055,
+        894.8828735351562,
+        766.1248779296875
+      ],
+      "area": 685592.0625,
+      "iscrowd": 0
+    },
+    {
+      "id": 9,
+      "image_id": 5,
+      "category_id": 58,
+      "bbox": [
+        251.5740203857422,
+        81.14799499511719,
+        434.51971435546875,
+        545.57470703125
+      ],
+      "area": 237062.96875,
+      "iscrowd": 0
+    },
+    {
+      "id": 10,
+      "image_id": 6,
+      "category_id": 7,
+      "bbox": [
+        176.7354278564453,
+        95.33145141601562,
+        455.39935302734375,
+        619.1533203125
+      ],
+      "area": 281962.03125,
+      "iscrowd": 0
+    },
+    {
+      "id": 11,
+      "image_id": 7,
+      "category_id": 37,
+      "bbox": [
+        5.895055770874023,
+        2.627591133117676,
+        341.81890869140625,
+        658.1808471679688
+      ],
+      "area": 224978.65625,
+      "iscrowd": 0
+    },
+    {
+      "id": 12,
+      "image_id": 8,
+      "category_id": 34,
+      "bbox": [
+        191.04296875,
+        17.74578094482422,
+        247.18136596679688,
+        433.2304992675781
+      ],
+      "area": 107086.5078125,
+      "iscrowd": 0
+    },
+    {
+      "id": 13,
+      "image_id": 8,
+      "category_id": 34,
+      "bbox": [
+        420.5528869628906,
+        33.942298889160156,
+        232.59207153320312,
+        419.1090393066406
+      ],
+      "area": 97481.4375,
+      "iscrowd": 0
+    },
+    {
+      "id": 14,
+      "image_id": 9,
+      "category_id": 65,
+      "bbox": [
+        224.46527099609375,
+        17.341064453125,
+        472.42608642578125,
+        700.105712890625
+      ],
+      "area": 330748.1875,
+      "iscrowd": 0
+    },
+    {
+      "id": 15,
+      "image_id": 10,
+      "category_id": 69,
+      "bbox": [
+        540.4528198242188,
+        271.12261962890625,
+        867.2750854492188,
+        1175.611328125
+      ],
+      "area": 1019578.4375,
+      "iscrowd": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "name": "Afghan",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 1,
+      "name": "African Wild Dog",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 2,
+      "name": "Airedale",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 3,
+      "name": "American Hairless",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 4,
+      "name": "American Spaniel",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 5,
+      "name": "Basenji",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 6,
+      "name": "Basset",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 7,
+      "name": "Beagle",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 8,
+      "name": "Bearded Collie",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 9,
+      "name": "Bermaise",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 10,
+      "name": "Bichon Frise",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 11,
+      "name": "Blenheim",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 12,
+      "name": "Bloodhound",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 13,
+      "name": "Bluetick",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 14,
+      "name": "Border Collie",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 15,
+      "name": "Borzoi",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 16,
+      "name": "Boston Terrier",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 17,
+      "name": "Boxer",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 18,
+      "name": "Bull Mastiff",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 19,
+      "name": "Bull Terrier",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 20,
+      "name": "Bulldog",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 21,
+      "name": "Cairn",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 22,
+      "name": "Chihuahua",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 23,
+      "name": "Chinese Crested",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 24,
+      "name": "Chow",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 25,
+      "name": "Clumber",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 26,
+      "name": "Cockapoo",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 27,
+      "name": "Cocker",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 28,
+      "name": "Collie",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 29,
+      "name": "Corgi",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 30,
+      "name": "Coyote",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 31,
+      "name": "Dalmation",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 32,
+      "name": "Dhole",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 33,
+      "name": "Dingo",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 34,
+      "name": "Doberman",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 35,
+      "name": "Elk Hound",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 36,
+      "name": "French Bulldog",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 37,
+      "name": "German Sheperd",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 38,
+      "name": "Golden Retriever",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 39,
+      "name": "Great Dane",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 40,
+      "name": "Great Perenees",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 41,
+      "name": "Greyhound",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 42,
+      "name": "Groenendael",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 43,
+      "name": "Irish Spaniel",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 44,
+      "name": "Irish Wolfhound",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 45,
+      "name": "Japanese Spaniel",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 46,
+      "name": "Komondor",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 47,
+      "name": "Labradoodle",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 48,
+      "name": "Labrador",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 49,
+      "name": "Lhasa",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 50,
+      "name": "Malinois",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 51,
+      "name": "Maltese",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 52,
+      "name": "Mex Hairless",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 53,
+      "name": "Newfoundland",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 54,
+      "name": "Pekinese",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 55,
+      "name": "Pit Bull",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 56,
+      "name": "Pomeranian",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 57,
+      "name": "Poodle",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 58,
+      "name": "Pug",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 59,
+      "name": "Rhodesian",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 60,
+      "name": "Rottweiler",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 61,
+      "name": "Saint Bernard",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 62,
+      "name": "Schnauzer",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 63,
+      "name": "Scotch Terrier",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 64,
+      "name": "Shar_Pei",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 65,
+      "name": "Shiba Inu",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 66,
+      "name": "Shih-Tzu",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 67,
+      "name": "Siberian Husky",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 68,
+      "name": "Vizsla",
+      "supercategory": "dog_breed"
+    },
+    {
+      "id": 69,
+      "name": "Yorkie",
+      "supercategory": "dog_breed"
+    }
+  ]
+}
