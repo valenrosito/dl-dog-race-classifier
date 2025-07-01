@@ -94,7 +94,7 @@ def train_one_epoch(model, opt):
         opt.step()
 
 print("Entrenando modelo ResNet18...")
-for epoch in range(5):
+for epoch in range(7):
     train_one_epoch(r18, opt_r18)
 print("Omitiendo entrenamiento de ResNet50 (uso de preentrenado TF)")
 print("Entrenando modelo Custom CNN...")

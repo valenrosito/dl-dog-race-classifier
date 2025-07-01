@@ -6,3 +6,4 @@ faiss-cpu==1.11.0
 tqdm==4.67.1
 torch==2.7.1
 torchvision==0.22.1
+ultralytics==8.3.159
