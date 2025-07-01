@@ -4,7 +4,6 @@ import numpy as np
 from PIL import Image
 from ultralytics import YOLO
 from GradioStage3 import model as model_stage3, clasificar_recorte
-import glob
 
 # ========== CONFIGURACIÓN ==========
 IMG_DIR   = "test-images"
