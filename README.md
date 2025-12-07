@@ -1,3 +1,7 @@
+# 🐶 Pipeline de Visión por Computadora para la Detección y Clasificación de Razas de Perros
+
+Este proyecto implementa un pipeline completo de visión por computadora para la clasificación de razas de perros, entrenado para identificar 70 razas distintas utilizando modelos de Deep Learning optimizados. El sistema cuenta con una interfaz visual interactiva desarrollada en Gradio que admite carga múltiple de imágenes, facilitando la detección, clasificación y búsqueda por similitud de manera ágil y precisa.
+
 ## Ejecución del Proyecto
 
 1. **Instalación de dependencias**
